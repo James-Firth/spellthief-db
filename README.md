@@ -1,22 +1,12 @@
 # spellthief-db
-SpellThief DB will scrape the D&amp;D Basic Rules that are available online and create a nicely parseable file for use by other programs.
+SpellThief DB is a project with the goal of providing developers with all the D&amp;D spells in easy-to-use formats.
 
+
+## Features
+
+Planned features and known issues can be found in the [Github Issues](https://github.com/James-Firth/spellthief-db/issues).
+
+Some spells may not be available via the OGL and many DMs like to create their own. Thus I would also like to make it easy to add spells to SpellThiefDB.
 
 Tested in Chrome by pasting the following code into the console on this page:
 http://dnd.wizards.com/products/tabletop/players-basic-rules
-
-## Planned Features:
-
-* finish properties for spells.
-* Generate multiple useful sortings of spells ie: different keys to look spells up
-  examples:
-  * spell levels
-  * Classes
-  * spell names
-* Create a function to easily add more spells
-* Output in multiple formats: json, cson, yaml, etc.
-* Create webpage to view spells
-
-## Known Issues:
-
-* Range parses incorrectly
